@@ -1,0 +1,35 @@
+.photo-box {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.photo-title {
+    flex: 0;
+    background-color: #9484b3;
+    color: white;
+    padding: 8px 7px 8px 17px;
+    margin: 7px;
+    font-size: 16.47px; 
+}
+
+.photo-photography {
+    flex: 1;
+    width: 470px;
+    margin: 10px 17px 10px 17px;
+}
+
+.photo-contents {
+    flex: 1;
+    margin: 7px;
+    padding-left: 7px;
+    margin: 10px 10px 10px 17px;
+    font-size: 1.05em;
+}

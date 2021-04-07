@@ -1,0 +1,78 @@
+/*column2_row3 'Updated news'*/
+
+.contents1 {
+    flex: 0.6;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contents1-1 {
+    flex: 0.4;
+    font-size: 17px;
+  }
+  
+  /*column2_row3 '게시판, 사진첩 관련'*/
+
+  .contents1-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contents1-2-1 {
+    flex: 0.5;
+  }
+  
+  .notice-fonts {
+    font-size: 11px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  .photo-fonts {
+    font-size: 11px;
+    color: white;
+    background-color: #ff6162;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  .contents1-2-2 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .count-contents {
+    flex: 0.1;
+    border-bottom: 2px dashed gray;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .count-contents-1 {
+    flex: 0.5;
+  }
+  
+  /*column2_row3 'Miniroom'*/
+  
+  .contents2 {
+    flex: 0.6;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contents2-1 {
+    flex:0.4;
+    font-size: 17px;
+  }
+  
+  .contents2-2 {
+    flex: 1;
+  }
